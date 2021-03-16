@@ -56,7 +56,6 @@
 		 renderer="logarithmicDepthBuffer: true;"
 		 embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
  
-		 <!-- use rawgithack to retrieve the correct url for nft marker (see 'pinball' below) -->
 		 <a-nft
 			 type='nft'
 			 url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/blc-ssgk/webar-test/gh-pages/assets/img/sample'
@@ -66,6 +65,23 @@
 			 smoothThreshold='5'
 			 registerevents
 			 id="富士山"
+		   >
+		   <!-- <a-entity
+			gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+			scale="5 5 5"
+			position="0 0 0"
+			>
+			 </a-entity> -->
+		 </a-nft>
+		 <a-nft
+			 type='nft'
+			 url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/blc-ssgk/webar-test/gh-pages/assets/img/sample2'
+			 smooth='true'
+			 smoothCount='10'
+			 smoothTolerance='0.01'
+			 smoothThreshold='5'
+			 registerevents
+			 id="桃太郎"
 		   >
 		   <!-- <a-entity
 			gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
